@@ -15,5 +15,4 @@ public abstract class Species extends Genus{
     public abstract String speak();
     public abstract void description();
 
-    ;
 }

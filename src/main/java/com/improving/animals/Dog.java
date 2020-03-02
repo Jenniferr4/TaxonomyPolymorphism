@@ -14,9 +14,9 @@ public class Dog extends Species {
 
     public void description(){
         System.out.println("My name is " + getName() +" & I'm " + getAge()+".");
-        System.out.println("Species: " + super.getSpeciesName() +
-                "\nGenus: " + super.getGenusName()+
-                "\nFamily:"+ super.getFamilyName());
+        System.out.println("Species: " + super.getSpeciesName());
+        System.out.println("Genus: " + super.getGenusName());
+        System.out.println("Family:"+ super.getFamilyName());
     }
 
     @Override
